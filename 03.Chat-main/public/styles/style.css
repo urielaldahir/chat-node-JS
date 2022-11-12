@@ -1,0 +1,90 @@
+
+.containerr{
+    width: 450px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4) ;
+    background-color: dodgerblue;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue orange;
+}
+.header h1{
+    color: white;
+    padding: 15px;
+}
+.body{
+    flex: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 30px;
+    overflow-y: scroll;
+    
+}
+.message{
+    background-color: rgb(83, 27, 251);
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 15px;
+}
+.user_message{
+    margin-left: auto;
+    background-color: rgb(6, 209, 255);
+    color: black;
+}
+.footer form{
+    display: flex;
+}
+form input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+}
+form button{
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(106, 0, 255);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#ulUsuarios{
+    border: 5px solid rgb(38, 3, 77);
+    border-radius: 15px;
+}
+
+.user_online{
+    margin: 0;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 28, 93);
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 7px;
+}
+
+#chatContainer{
+    display: none;
+}
